@@ -1,0 +1,190 @@
+<!Doctype html>
+<html>
+<head>
+<title>
+HOME PAGE
+</title>
+<script type="text/javascript">
+
+      function validate()
+      {
+       if( document.getElementById("1").value=="" )
+         {
+            alert( "Please provide your name!" );
+            document.getElementById("1").focus() ;
+            return false;
+         }
+         x=document.getElementById("2").value
+           var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Not a valid e-mail address");
+		document.getElementById("2").focus() ;
+        return false;
+    }
+         a=document.getElementById("3").value 
+         if(a == "" || a.length != 10 || !a.match()  )
+         {
+            alert( "Please provide valid phone number" );
+            document.getElementById("3").focus() ;
+            return false;
+         }
+         
+      
+if(document.getElementById("6").value == "" || 
+         document.getElementById("5").value != document.getElementById("6").value)
+         {
+            alert( "Please enter same password" );
+            document.getElementById("6").focus() ;
+            return false;
+         }
+         return( true );
+
+      }
+  
+</script>
+<style>
+body
+{
+background-image:url(FIRST1.jpg);
+background-size:COVER;
+background-repeat: no-repeat;
+}
+#search
+{
+width:50px;height:50px;
+}
+#search1
+{
+width:5500px;height:50px;
+}
+body, input
+{
+font-size: 70px; 
+}
+table 
+{
+border: 45px solid white;
+WIDTH:100%;
+}
+TD
+{
+PADDING:75PX;
+}
+table
+{
+background-color: #d9ffd9;
+background-image: url(background-image-653039_960_720.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+}
+	
+	</style>
+
+	</head>
+
+	<body>
+<font color="white">
+	<center>
+
+	<i>
+
+	
+
+<FONT SIZE="61" FACE="ARIAL"COLOR="#00000">
+
+<U>
+
+<H1>
+
+<B>
+
+ 
+
+</b>
+
+</H1>
+
+<BR>
+
+</I>
+
+</U>
+
+</FONT>
+
+<font size="8PX" face="arial"color="WHITE">
+
+<b>
+
+<i>
+
+<H2>
+
+<u>
+
+<STRONG>
+</STRONG>
+
+</u>
+
+</center>
+
+</i>
+
+</h2>
+
+</TD>
+</TR>
+<CENTER>
+
+</TABLE>
+
+<br><br><br><br><br>
+<big>
+<FONT COLOR="blue">
+<h1>SIGN-UP</H1>
+</FONT>
+</big>
+  <form action="/cgi-bin/test.cgi" name="myForm" onsubmit="return(validate());">
+         <table id="search" border="25px">
+            
+            <tr>
+               <td align="right">Fullname       </td>
+               <td><input type="text" name="Name" id="1" /></td>
+           
+            </TR>
+           <TR>
+               <td align="right">EMail          </td>
+               <td><input type="text" name="EMail" id="2"/></td>
+            </tr>
+<TR>
+               <td align="right">contact No     </td>
+               <td><input type="text" name="contact" id="3" /></td>
+           
+            
+<tr>
+               <td align="right">Password       </td>
+               <td><input type="password" name="pass" id="5" /></td>
+          </TR>
+      
+               <td align="right">Re-Type Password</td>
+               <td><input type="password" name="pass" id="6" /></td>
+            </tr>     
+           
+</TABLE>
+             <a href="PROJECT.html">
+              <input type="submit" value="Submit" />
+           </a>
+            
+    
+		 </CENTER>
+      </form>
+      
+    </div>
+  </div>
+</form>
+</font>
+</body>
+
+</html>

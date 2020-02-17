@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Veg</title>
+</head>
+<body bgcolor="#ffd480">
+<h1 align=center><b><i>Casa Bella Vista</i></b></h1>
+
+<img src="i.jpg;" align= "right" style="width:500px;height:250px" />
+<img src="p.jpg;" align= "right" style="width:500px;height:250px" />
+<img src="n.jpg;" align= "right""bottom" style="width:500px;height:250px" />
+<img src="o.jpg;" align= "right""bottom" style="width:500px;height:250px" />
+<h2>Info:-<br>
+Informal restaurant with kitty hall and South Indian food
+</h2>
+<h3 >Special Food:Gujarati Type</h3>
+<ol>
+<li>Adai , Sambhar and Chakra Pongal </li>
+<li>Appam , Avial and Kadala Curry</li>
+<li>Masala Pan Cakes</li>
+<li>Paneer Palak Rice Balls</li>
+<li>Spaghetti Moilee</li>
+<li>Molagai Podi</li>
+<li>Coconut Halwa</li>
+<li>Aviyal</li>
+<li> Chettinad Paneer with Cabbage Rice</li>
+<li>Mangalore Bonda</li>
+<li>Puffed Rice Laddus - Pori Urundai(special dessert)</li>
+</ol>
+<h4>Address:10D,533,Udhyan Path, Sector 10D,Chandigarh<br>
+Refferal link for reservations:-<b>bytplus</b><br>
+<a href="vegetarian chandigarh.png"><input type="submit" name="submit" value="CHECK MAP"></a><br>
+Ratings:4.6 stars<br>
+Timing:7am-10pm<br>
+Home Delivery(without any extra charges)</h4>
+<h3>Manager's contact:8000008924,7008784177<br>
+Customer care no. :-1801800012</h3>
+<form method='post'>
+Comment:<br />
+  <textarea name='comment' id='comment' placeholder="COMMENT"></textarea><br />  <input type='submit' value='Submit' />  
+</form>
+</body>
+</html> 

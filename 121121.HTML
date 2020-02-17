@@ -1,0 +1,36 @@
+<HTML>
+<HEAD>
+<TITLE>
+DHDHA<TITLE>
+</HEAD>
+<BODY>
+
+ <script type="text/javascript">
+      function getRadioButtonValue(rbutton)
+      {
+        for (var i = 0; i < rbutton.length; ++i)
+        { 
+          if (rbutton[i].checked)
+            return rbutton[i].value;
+        }
+        return null;
+      }
+
+      function handleClick(event)
+      {
+        alert("Favorite weird creature: "+getRadioButtonValue(this["whichThing"]));
+        event.preventDefault(); // disable normal form submit behavior
+        return false; // prevent further bubbling of event
+      }
+    </script>
+  </head>
+<body>
+    <form name="myform" onSubmit="JavaScript:handleClick()">
+      <input name="Submit"  type="submit" value="Update" onClick="JavaScript:handleClick()"/>
+      Which of the following do you like best?
+      <p><input type="radio" name="whichThing" value="slithy toves" />Slithy toves</p>
+      <p><input type="radio" name="whichThing" value="borogoves" />Borogoves</p>
+      <p><input type="radio" name="whichThing" value="mome raths" />Mome raths</p>
+    </form>
+	</BODY>
+	</HEAD>

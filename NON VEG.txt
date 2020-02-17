@@ -1,0 +1,30 @@
+<!Doctype html>
+
+
+<html>
+
+<head>
+
+<title>
+
+VEG PAGE
+
+</TITLE>
+
+<style>
+
+td
+{
+color:blue;
+fon
+tsize:5px;
+}r
+th
+{
+fontsize:5px;
+color:white;
+}
+
+</style>
+
+</head>

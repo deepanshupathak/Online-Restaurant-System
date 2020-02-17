@@ -1,0 +1,1170 @@
+What will be the output of the following code:
+#include <iostream.h>
+#include<conio.h>
+using namespace std;
+class Box
+   {
+ public :
+
+            double length;
+
+            double breadth;
+
+            double height;
+
+        };
+
+        int main( )
+
+        {
+
+            Box Box1;
+
+            double volume;
+
+            Box1.height = 5;
+
+            Box1.length = 6;
+
+            Box1.breadth = 7.1;
+
+            volume = Box1.height * Box1.length * Box1.breadth;
+
+            cout << "Volume of Box1 : " << volume <<endl;
+
+            getch();
+            
+
+        }
+a) 210
+b) 213
+c) 215
+d) 217
+
+ANS: B
+
+
+What will be the output of the following code:
+	    #include <iostream.h>
+	    #include<conio.h>
+	    using namespace std;
+	    class Rect
+	    {
+	        int x, y;
+	        public:
+	        void set_values (int,int);
+	        int area ()
+	        {
+	            return (x * y);
+	        }
+	    };
+    void Rect::set_values (int a, int b) {
+	        x = a;
+	        y = b;
+	    }
+	    int main ()
+	    {
+        Rect recta, rectb;
+        recta.set_values (5, 6);
+	        rectb.set_values (7, 6);
+	        cout << "recta area: " << recta.area();
+	        cout << "rectb area: " << rectb.area();
+	        getch();
+	    }
+
+a) recta area: 30 rectb area: 42
+b) recta area: 20 rectb area: 34
+c) recta area: 30 rectb area: 21
+d) none of the mentioned
+
+ANS:A
+
+
+
+Which special character is used to mark the end of class?
+a) ;
+b) :
+c) #
+d) $
+
+ANS:A
+
+
+
+What does your class can hold?
+a) data
+b) functions
+c) both a & b
+d) none of the mentioned
+
+ANS: C
+
+
+
+
+For a method to be an interface between the outside world and a class,it has to be declared ?
+a)private
+b) protected
+c) public
+d) external
+
+ANS-c
+
+
+In C++, a function contained within the class is called ?
+a)member function
+b) a class function
+c) a method
+d) none of above
+
+ANS: A
+
+
+Classes are useful because they
+a) are removed from memory when not in use
+b) permit data to be hidden from other classes
+c) bring together all aspects of an entity in one place
+d) can closely model objects in the real world
+
+ANS: B
+
+
+
+What is the output of this program?
+
+    #include <iostream>
+    using namespace std;
+    class rect
+    {
+        int x, y;
+        public:
+        void val (int, int);
+        int area ()
+        {
+            return (x * y);
+        }
+    };
+    void rect::val (int a, int b)
+    {
+        x = a;
+        y = b;
+    }
+    int main ()
+    {
+        rect rect;
+        rect.val (3, 4);
+        cout << "rect area: " << rect.area();
+        return 0;
+    }
+a) rect area:4
+b) rect area: 12
+c) rect area:24
+d) none of the mentioned
+
+ANS: B
+
+
+When struct is used instead of the keyword class means, what will happen.
+a) access is public by default
+b) access is private by default
+c) access is protected by default
+d) none of the mentioned
+
+ANS:A
+
+
+
+Which of the following is not the member of class?
+A.
+Static function
+B.
+Friend function
+C.
+Const function
+D.
+Virtual function
+Ans:B
+
+
+Which rule will not affect the friend function?
+a) private and protected members of a class cannot be accessed from outside
+b) private and protected member can be accessed anywhere
+c) both a & b
+d) None of the mentioned
+
+Ans:a
+
+
+Which of the following is/ are the characteristics of friend function.
+A) It is not in the scope of the class to which it has been declared as friend.
+B) It can invoke like a normal function without the help of any object.
+C) Usually, it has the objects as arguments.
+D) All of the above.
+
+Ans: d
+
+
+By default how the value are passed in c++?
+a) call by value
+b) call by reference
+c) call by pointer
+d) none of the mentioned
+
+ANs :a
+
+
+What do you mean by recursion
+(a)	Recursion is a class
+(b)	Recursion is a method which calls main() method .
+(c)	Recursion is a method which allows function to call itself
+(d)	Recursion is a method a calling a method from main() method.
+Ans: C
+
+
+
+What will be output of following program code , assume necessary header files are included
+void add(int a,int b)
+ {
+a=10;
+b=20;
+ }
+main()
+ {
+int a=30;
+int b=40;
+add(a,b);
+cout<<a+b;
+ }
+
+(a)	30         (b) 70     (c) garbage value   (d) Compile time error as name duplicate names are used for arguments.
+Ans: B
+
+
+
+What will be output of following program code , assume necessary header files are included
+main()
+{
+
+int x = 10; 
+int &y = x;
+x++;
+cout<< x << " " << --y;
+}
+(a)	11 9        (b) 11  10        (c) 10   10       (d) Compile time error
+
+Ans: b
+
+
+
+
+What will be output of following program code , assume necessary header files are included
+
+int main()
+{
+int x = 10, y = 20;
+int *ptr = &x;
+int&ref = y;
+    *ptr++;
+ref++;    
+cout<< x << " " << y;
+return 0; 
+}
+(a)	10 21        (b) 10 20         (c) 11 20           (d) 11 21
+Ans: A
+
+
+
+A reference is declared using the _____ symbol.
+(a)	&&          (b) *            (c) &          (d) **
+Ans: C
+
+
+
+Which of the following statement is correct?
+(a)	A referenced has to be de-referenced to access a value.
+(b)	A referenced does not need to be de-referenced to access a value.
+(c)	A referenced has to be double de-referenced to access a value.
+(d)	Whether a reference should be de-referenced or not depends on the type of the reference.
+Ans: B
+
+
+What will be output of following program code , assume necessary header files are included
+void copy (int& a, int& b, int& c)
+    {
+        a =a+2;
+        b =b+2;
+        c =c+2;
+    }
+int main ()
+    {
+int x = 1, y =2, z = 3;
+copy (x, y, z);
+cout<< x <<  y <<  z;
+}
+(a)	1 2 3    (b) 1  1  1           (c) 3  3  3     (d) 3 4 5
+Ans: D
+
+
+
+
+What will be output of following program code , assume necessary header files are included
+void fun(int &x)
+
+        {
+            x = 10;
+        }
+int main()
+        {
+int  x = 5;
+fun(x);
+cout<< "New value of x is " << x;
+        }
+(a)	New value of x is 5   (b) New value of x is 15          (c) New value of x is 10          (d) garbage value
+Ans: C
+
+
+
+What will be output of following program code , assume necessary header files are included
+
+void square (int *x)
+    {
+	*x = (*x + 1) * (*x);
+    }
+int main ( )
+    {
+	Int num = 10;
+square(&num);
+cout<<num; 
+return 0;
+    }
+(a)	100         (b) 121             (c) 10       (d) 110
+
+Ans: D
+
+
+
+What will be output of following program code , assume necessary header files are included
+int add(int a,int b)
+    {
+    a=10;
+    b=20;
+returna+b;
+	}
+	main()
+	{
+	int x=2,y=3;
+	cout<<add(x,y);
+	cout<<x+y;
+	}
+(a)	30 30           (b) 5 5         (c) 12 23        (d ) 30 5
+
+Ans: D
+
+
+
+If you are making two classes with name  class FIRST and class SECOND and you need to access there private data members by using friend function void show(). Which of the following declaration you will use in classes for friend function.
+(a)	void friend show();
+(b)	friend show(FIRST obj1,SECOND obj2);
+(c)	void show(FIRST obj1,SECOND obj2);
+(d)	void show(friend FIRST,friend SECOND);
+Ans: B
+
+
+
+What will be output of following program code , assume necessary header files are included
+
+class calculate
+{
+int a,b;
+public:
+	void set()
+	{
+	a=10;
+	b=20;
+	}
+	friend void disp(calculate c1);
+	
+};
+voiddisp(calculate c1)
+	{
+	c1.a=++c1.a;
+	c1.b=--c1.b;
+	cout<<c1.a<<c1.b;
+	}
+	main()
+	{
+	calculate c1;
+	c1.set();
+	disp(c1);
+	}
+
+(a)	11 19           (b) 10 20            (c) 11 20       (d) 10 19
+Ans: A
+
+
+
+
+
+Have a look at the following piece of code and state the output. 
+int main()
+{
+    int a=10;
+    void *ptr=&a;
+    cout<<*ptr;
+    getch();
+}
+
+A)	Prints 10 on the screen.
+B)	Prints an address on the screen.
+C)	Prints a garbage value on screen.
+D)	Results in a compiler error.
+
+Answer: D
+
+
+
+
+
+Have a look at the following piece of code and state the output. 
+
+int fun(int &anotherref);
+int main()
+{
+    int a=20,&refval=a;
+    cout<<refval++<<fun(refval)<<endl;
+    getch();
+}
+int fun(int &anotherref)
+{
+    return anotherref++;
+}
+
+A)	Prints 2021 on the screen.
+B)	Prints 2120 on the screen.
+C)	Results in a compiler error.
+D)	Prints 2020 on the screen.
+
+Answer: B
+
+
+
+
+Have a look at the following piece of code and state the output.
+int main()
+{
+    int arr[]={1,2,3,4};
+    int &total=*(arr+2);
+    total=*(arr+3)+2;
+    cout<<total;
+    getch();
+}
+
+A)	Prints 3 on the screen.
+B)	Prints 5 on the screen.
+C)	Prints 6 on the screen.
+D)	Results in a compiler error.
+
+Answer: C
+
+
+
+
+A pointer which can point to any data type is said to be 
+
+A)	Wild pointer
+B)	Null pointer
+C)	Void pointer
+D)	Dangling pointer
+
+Answer: C
+
+
+
+Have a look at the following piece of code and state the output. 
+void display(char);
+void display(char*);
+int main()
+{
+    char *str="ABCD";
+    display(*str);
+    display(str);
+    getch();
+}
+void display(char c)
+{
+     cout<<c<<endl;
+}
+void display(char *c)
+{
+     cout<<++c<<endl;
+}    
+
+A)	Prints A on the screen.
+B)	Prints A and ABCD on the screen.
+C)	Prints A and BCD on the screen.
+D)	Results in a compiler error.
+
+Answer: C
+
+
+
+
+Which of the following declaration statements declares maximum number of pointers?
+a. int *p,q,r; 
+b. int* p,q,r;
+c. int p,*q,**r;
+d. int ******p;
+Answer  c
+
+
+What would be equivalent expression for array element a[i][j]?
+a. *((a+i)+j)
+b. *(*(a+i)+j)
+c. (a+i)+j
+d. *a(i+j)
+Answer:  b
+
+
+
+The syntax for declaring generic pointer is
+(a)template *ptr1;
+(b)generic *ptr1;
+(c)void *ptr3;
+(d)type *ptr4;
+Ans c
+
+
+Which of the following is not true about pointer arithmetic?
+(a)	pointer can be added.
+(b)	pointer can be subtracted.
+(c)	pointer can be incremented.
+(d)	pointer can be decrementd.
+Ans a
+
+
+
+What will be the output of the program ?
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+    void *vp;
+    char ch=74, *cp="JACK";
+int j=65;
+vp=&ch;
+cout<<*(char*)vp;
+vp=&j;
+cout<<*(int*)vp;
+vp=cp;
+cout<<(char*)vp+2;
+getch();
+return 0;
+}
+a) JAK
+(b) J65K
+(c) JCK
+(d) J65CK
+
+Ans d
+
+
+
+What will be the output of the program ?
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+    char str[] = "university";
+    char *s = str;
+cout<<++s+5;
+getch();
+return 0;
+}
+(a) rsity
+(b) ity
+(c) sity
+(d) niver
+
+Ans c
+
+
+
+Give the output:
+int main()
+{ int a=2,b=4,c=6 ;
+int*ptr ;
+ptr=&a;
+*ptr=10;
+ptr=&b;
+ptr=&c;
+cout<<a<<b<<c;
+getch();
+return 0;
+}
+a) 10 4 6
+(b) 10 10 10
+(c) 2 4 6
+(d) none of these
+Ans a
+
+
+
+Which of the following statement is correct?
+
+a.  Once a reference variable has been defined to refer to a particular variable it can refer to any other variable.
+b.  A reference is indicated by using && operator.
+c. Once a reference variable has been defined to refer to a particular variable it cannot refer to any other variable.
+d. A reference can be declared beforehand and initialized later.
+Answer: c
+
+
+
+Suppose you declare int count = 5 and int *pCount = &count; which of the following is true?
+(a)*count is the address of count.
+(b) &count is 5
+(c) pCount is 5
+(d)pCount contains the address of count.
+
+Answer d
+
+
+
+
+What will happen when the structure is declared?
+a) it will not allocate any memory
+b) it will allocate the memory
+c) it will be declared and initialized
+d) none of the mentioned
+
+Ans-a
+
+
+
+What is the output of this program?
+
+1.	    #include <iostream>
+2.	    using namespace std;
+3.	    struct Time {
+4.	        int hours;
+5.	        int minutes;
+6.	        int seconds;
+7.	    };
+8.	    int toSeconds(Time now);
+9.	    int main()
+10.	    {
+11.	        Time t;
+12.	        t.hours = 5;
+13.	        t.minutes = 30;
+14.	        t.seconds = 45;
+15.	        cout << "Total seconds: " << toSeconds(t) << endl;
+16.	        return 0;
+17.	    }
+18.	    int toSeconds(Time now)
+19.	    {
+20.	        return 3600 * now.hours + 60 * now.minutes + now.seconds;
+21.	    }
+
+a)	19845
+b)	20000
+c)	15000
+d)	19844
+ANS-A
+
+
+
+Which of the following is a properly defined structure?
+a) struct {int a;}
+b) struct a_struct {int a;}
+c) struct a_struct int a;
+d) struct a_struct {int a;};
+
+Ans-D
+
+
+
+Which of the following two entities (reading from Left to Right) can be connected by the dot operator?
+
+A class member and a class object.
+
+B class object and a class.
+
+C class and a member of that class.
+
+D class object and a member of that class.
+
+
+
+ANS-D
+
+
+Which of the following keywords is used to control access to a class member?
+A. Default	
+B. Break
+C. Protected	
+D. Continue
+
+ANS-C
+
+
+
+Which of the following is the only technical difference between structures and classes in C++?
+A. Member function and data are by default protected in structures but private in classes.
+B. Member function and data are by default private in structures but public in classes.
+C. Member function and data are by default public in structures but private in classes.
+D. Member function and data are by default public in structures but protected in classes.
+
+ANS-C
+
+
+When a function is defined inside a class, this function is called ………….
+A) Inside function
+B) Class function
+C) Inline function
+D) Interior function
+
+ANS-C
+
+
+State true of false.
+i) We cannot make the function inline by defining a function outside the class.
+ii) A member function can be called by using its name inside another member function of the same class, this is known as nesting of member function.
+A) True, True
+B) True, False
+C) False, True
+D) False, False
+
+ANS-C
+
+
+Objects of the same class share the values of ...... while they maintain separate values for ........ .
+[A] Static variables, non static variables
+[B] Non static variables, static variables
+[C] Global variables, static variables
+[D] Static variables, register variables
+ANS-A
+
+
+
+Static variable in a class is initialized when
+
+a. every object of the class is created 
+b. last object of the class is created 
+c. first object of the class is created 
+d. No need to initialize static variable
+
+ANS-C
+
+
+
+In which type does the enumerators are stored by the compiler?
+a) string
+b) integer
+c) float
+d) none of the mentioned
+ANS-B
+
+
+How many objects can present in a single class?
+a) 1
+b) 2
+c) 3
+d) as many as possible
+
+ANS-D
+
+
+
+Which of the following cannot be passed to a function?
+A) Reference variable
+B) Arrays
+C) Class objects
+D) Header files
+
+Ans-D
+
+
+State true of false.
+i) We cannot make the function inline by defining a function outside the class.
+ii) A member function can be called by using its name inside another member function of the same class, this is known as nesting of member function.
+A) True, True
+B) True, False
+C) False, True
+D) False, False
+
+Ans-C 
+
+
+A variable is defined within a block in a body of a function. Which of the following are true?
+A) It is visible throughout the function.
+B) It is visible from the point of definition to the end of the program.
+C) It is visible from the point of definition to the end of the block.
+D) It is visible throughout the block.
+
+Ans-D
+
+
+Which of the following is true about the static member variable in C++.
+i) It is initialized to zero when the first object of its class is created. Other initialization is also permitted.
+ii) It is visible only within the class, but its lifetime is the entire program.
+A) i-True, ii-True
+B) i-False, ii-True
+C) i-True, ii-False
+D) i-False, ii-False
+
+Ans—B
+
+
+What will be the output of the following code:
+#include<stdio.h>
+void main()
+{
+static num = 4;
+cout<<num;
+num--;
+if(num)
+   main();
+}
+
+(a)	43210
+(b)	4321   
+(c)	321
+(d)	3210
+
+ANS: B
+
+
+What is the similarity between a structure, union and enumeration?
+A.All of them let you define new values
+B.All of them let you define new data types
+C.All of them let you define new pointers
+D.All of them let you define new structures
+
+Ans-B
+
+
+Identify the incorrect option
+a) enumerators are constants
+b) enumerators are user defined types
+c) enumerators are same as macros
+d) enumerator values start from 0 by default
+Ans-C
+
+
+In which type does the enumerators are stored by the compiler?
+a) string
+b) integer
+c) float
+d) none of the mentioned
+
+Ans-B
+
+
+
+What will happen when defining the enumerated type?
+a) it will not allocate memory
+b) it will allocate memory
+c) it will not allocate memory to its variables
+d) none of the mentioned
+
+Ans-A
+
+
+Which variable does equals in size with enum variable?
+a) int variable
+b) float variable
+c) string variable
+d) none of the mentioned
+
+Ans-A
+
+
+
+What is the output of this program?
+#include <iostream>
+    using namespace std;
+    enum  cat {
+        temp = 7;
+    };
+    int main()
+    {
+        int age = 14;
+        age /= temp;
+        cout << "If you were cat, you would be " << age << endl;
+        return 0;
+    }
+
+a) If you were cat, you would be 5
+b) If you were cat, you would be 2
+c) If you were cat, you would be 7
+d) none of the mentioned
+
+Ans-B
+
+
+What is the output of this program?
+#include <iostream>
+    using namespace std;
+    enum test {
+        A = 32, B, C;
+    };
+    int main()
+    {
+        cout << A << B<< C;
+        return 0;
+    }
+a) 323334
+b) 323232
+c) 323130
+d) none of the mentioned
+
+Ans-A
+
+
+The data elements in structure are also known as what?
+a) objects
+b) members
+c) datas
+d) none of the mentioned
+Ans-B
+
+
+
+What will be used when terminating a structure?
+a) :
+b) }
+c) ;
+d) ;;
+Ans-C
+
+
+What will happen when the structure is declared?
+a) it will not allocate any memory
+b) it will allocate the memory
+c) it will be declared and initialized
+d) none of the mentioned
+Ans-A
+
+
+What is the output of this program?
+#include <iostream>
+    #include <string.h>
+    using namespace std;
+    int main()
+    {
+        struct student {
+            int num;
+            char name[25];
+        };
+        student stu;
+        stu.num = 123;
+        strcpy(stu.name, "John");
+        cout << stu.num << endl;
+        cout << stu.name << endl;
+        return 0;
+    }
+a) 123
+    john
+b) john
+    john
+c) compile time error
+d) none of the mentioned
+Ans-A
+
+
+
+Static member variable is having default value:
+(a)	0
+(b)	10
+(c)	-1
+(d)	Garbage
+
+Ans-A
+
+
+What is allocated memory size of the following union:
+        union student
+        {
+	int x;
+	float y;
+               double z;
+       };
+(a)	2 Byte
+(b)	4 Byte
+(c)	8 Byte
+(d)	14 Byte
+
+Ans-C
+
+
+
+
+The data members or member functions, those are declared PRIVATE can be generally accessed through -
+a)  any function in the program
+b) Any member function of that class
+c) Any member function of any class 
+d) Only public member functions of that class.
+
+Answer: b
+
+
+When defining a class, which of the following is a default Access Specifier ?
+a. Private 		b. Public 		c. Protected 	d. Friend
+Answer : a 
+
+
+OBJECT in a class of C++ is defined as :
+a) a function of a class
+b) a datatype of a class
+c)  a part of syntax of a class
+d) an instance of a class
+answer: d
+
+
+Consider a class named 'Student'. Which of the following is the correct syntax of declaring object named 'Obj'   ?
+a)  Student Obj;			b) class Student Obj;
+c) Student Object Obj;		d) Object Obj;
+ANSWER- a)
+
+
+Choose the correct syntax for accessing member functions of a class using Object?
+a) objectname.functionname();			b) objectname.functionname;
+c) objectname::functionname();			c) objectname::functionname;
+ANSWER a)
+
+
+Consider there is a class named 'Employee'. Object to that class is  'E1'. This object E1 can directly access :
+1.	Public members of  Employee class
+2.	Private members of Employee class
+3.	Both of above
+4.	None of above
+ANSWER -a)
+
+
+The data members those are declared PRIVATE are accessible: 
+a) only to member functions of that class
+b)  Directly to objects of that class 			c)  To any function defined outside a class
+d) Only using keyword static
+ANSWER -a)
+
+
+When defining a class, how many specifiers are present ?
+a) 1
+b) 2
+c) 3
+d) 4
+
+ ANSWER c)
+
+
+
+A programmer wants to declare a class. He is seeking for correct syntax. Help him in choosing the valid class declaration syntax .
+a) class A { int x; };
+b) class B { }
+c) public class A { }
+d) object A { int x; };
+
+ANSWER -a)
+
+
+
+what would be the output of following given snippet ?       
+#include <iostream> 
+#include<conio.h>
+using namespace std;
+1.	   int main ()
+2.	    {
+3.	        int i;
+4.	        cout << "Please enter an integer value: ";
+5.	        cin >> i + 4;
+6.	        return 0;
+7.	    }
+
+a) 73  			b) your value + 4
+c) Error  			d) None of the mentioned
+
+
+ANSWER -c)
+
+
+
+ Insertion operator in c++ is used along with :
+a) cin 		b) cout  c) both cin  and cout   d) depends upon choice of programmer
+
+ANSWER -b) 
+
+
+
+cout in c++ is a/an :
+a) operator 		b) function  c)  macro 	d) object
+
+ANSWER –d) 
+
+
+
+Which operator is used along with 'cin' in C++?
+a) extraction operator  b)  Insertion operator  c) reference operator d)  less than operator
+
+ANSWER -a)
+
+
+
+What would be the output of this program?
+1.	    #include <iostream>
+2.	    using namespace std;
+3.	    int main ()
+4.	    {
+5.	        int n;
+6.	        for (n = 5; n > 0; n--)
+7.	        {
+8.	            cout << n;
+9.	            if (n == 3)
+10.	                break;
+11.	        }
+12.	        return 0;
+13.	    }
+a) 543 			b) 54		c) 5432  	d) 53
+
+ANSWER -a)
+
+
+
+Which is used to define the member of a class externally?
+a) :
+b) ::
+c) #
+d) none of the mentioned
+
+ANSWER -b)
+
+
+
+Which of these following members are not accessed by using direct member access operator?
+a) public
+b) private
+c) protected
+d) Both b & c
+
+ANSWER -d)
+
+
+
+
+Valid Syntax for defining member function outside the class is  :
+a) returntype classname :: functionname() {}
+b) returntype classname . functionname() {}
+c) class name:: functionname() { }
+d) class name. functionname() { }
+ANSWER -a)
+
+
+
+
+	
+	
+	
+	
+
+
+

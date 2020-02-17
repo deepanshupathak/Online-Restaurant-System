@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Veg</title>
+</head>
+<body bgcolor="#ffd480">
+<h1 align=center><b><i>CASA BELLA VISTA </i></b></h1>
+
+<img src="11.jpg;" align= "right" style="width:500px;height:250px" />
+<img src="12.jpg;" align= "right" style="width:500px;height:250px" />
+<img src="13.jpg;" align= "right""bottom" style="width:500px;height:250px" />
+<img src="14.jpg;" align= "right""bottom" style="width:500px;height:250px" />
+<h2>Info:-<br>
+Informal restaurant with leather chairs
+</h2>
+<h3 >Special Food Type:</h3>
+<ol>
+<li>Khamand-dhokla</li>
+<li>Chakli</li>
+<li>Shrikhand</li>
+<li>Khandvi</li>
+<li>Jalebi-fafra</li>
+<li>Gunda</li>
+<li>Tindora Nu Shaak</li>
+<li>Undhiyo</li>
+<li> Ringan Nu Oloo</li>
+</ol>
+<h4>Address:SCO 180,Inner Market,Sector-7C, Chandigarh<br>
+Refferal link for reservations:-<b>bytplus</b><br>
+<a href="vegetarian chandigarh.png"><input type="submit" name="submit" value="CHECK MAP"></a><br>
+Ratings:4.1 stars<br>
+Timing:7am-11pm<br>
+Home Delivery(without any extra charges)</h4>
+<h3>Manager's contact:8000008924,7008784177<br>
+Customer care no. :-1800180012</h3>
+<form method='post'>
+Comment:<br />
+  <textarea name='comment' id='comment' placeholder="COMMENT"></textarea><br />  <input type='submit' value='Submit' />  
+</form>
+</body>
+</html> 

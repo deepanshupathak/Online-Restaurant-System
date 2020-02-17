@@ -1,0 +1,187 @@
+<!Doctype html>
+<html>
+<head>
+<script type="text/javascript">
+function validate()
+{
+if( document.getElementById("1").value=="" )
+         {
+            alert( "Please provide your name!" );
+            document.getElementById("1").focus() ;
+            return false;
+}if(document.getElementById("6").value == "" || 
+         document.getElementById("5").value != document.getElementById("6").value)
+         {
+            alert( "Please enter same password" );
+            document.getElementById("6").focus() ;
+            return false;
+         }
+         return( true );
+
+
+}
+</script>
+<title>
+HOME PAGE
+</title>
+<style>
+body
+{
+background-image:url(ASA.jpg);
+background-size:COVER;
+background-repeat: no-repeat;
+}
+#search
+{
+width:50px;height:50px;
+}
+#search1
+{
+width:5500px;height:50px;
+}
+body, input
+{
+font-size: 60px; 
+}
+table 
+{
+border: 45px solid white;
+WIDTH:100%;
+}
+TD
+{
+PADDING:75PX;
+}
+table
+{
+background-color: #d9ffd9;
+background-image: url(background-image-653039_960_720.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+}
+</style>
+</head>
+<body>
+<A HREF="PROJECT1.html">
+<INPUT TYPE="BUTTON" NAME= "SUBMIT" VALUE="  GO-BACK  "/>
+&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp
+</i> 
+</font>
+</a>
+ <A HREF="PROJECT1.html">
+<INPUT TYPE="BUTTON" NAME= "SUBMIT" VALUE="  HOME-PAGE  "/>
+</i> 
+</font>
+</a>
+<font color="white">
+<center>
+<i>
+<FONT SIZE="61" FACE="ARIAL"COLOR="#00000">
+<U>
+<H1>
+<B>
+QUEST'S RESTAURANT SITE
+</b>
+</H1>
+<BR>
+</I>
+</U>
+</FONT>
+<font size="8PX" face="arial"color="WHITE">
+<b>
+<i>
+<H2>
+<u>
+<STRONG>
+.......WELCOME TO OUR RESTAURENT'S SITE.......<BR>
+........WE ARE PLEASED TO SERVE YOU FOR FINDING THE RESTAURANT AS PER YOUR CONVINENCE......</STRONG>
+</u>
+</i>
+</h2>
+<br>
+<br>
+<FONT SIZE="61" FACE="ARIAL"COLOR="BROWN">
+<U>
+<H2>
+<B>
+MAKE YOUR CHOICE FROM THE LIST GIVEN BELOW
+</b>
+</H2>
+</center>
+<CENTER>
+<TABLE ID="search1"BORDER="45PX"BGCOLOR="white">
+<TR width="80%">
+<TD width="80%">
+<center>
+<STRONG> 
+<i>
+<font size="20PX"color="">
+<a href="VEG PAGE.html">
+<INPUT TYPE="BUTTON" NAME= "SUBMIT"VALUE="VEGETARAIN RESTAURANT"style="width:50"/>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+</i> 
+</font> 
+</a>
+<B> 
+<i>  
+<font size="45px">
+<a href="NON VEG1.html"> <INPUT TYPE="BUTTON" NAME= "SUBMIT"VALUE="NON-VEGETARAIN RESTAURANT"/>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+</i> 
+</font>
+</a>
+<A HREF="">
+<INPUT TYPE="BUTTON" NAME= "SUBMIT"VALUE="CHINESE'S RESTAURANT"/> &nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp
+</i>
+</font>
+</a>
+<a href="1.HTML">
+<INPUT TYPE="BUTTON" NAME= "SUBMIT"VALUE="RESTAURANT IMAGES"/></a>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+</i> 
+</font> 
+</a>
+<A HREF="MAPLAST.html">
+<INPUT TYPE="BUTTON" NAME= "SUBMIT"VALUE="RESTAURANT MAP"/> 
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+</i> 
+</font>
+</a>
+</B>
+</font>
+<A HREF="PROJECT.html">
+<INPUT TYPE="BUTTON" NAME= "SUBMIT"VALUE="ABOUT LOGIN"/> 
+</i> 
+</font>
+</center> 
+</a>
+</TD>
+</TR>
+</TABLE>
+<br><br><br><br><br>
+<center>
+<br><br><br><br><br>
+
+ <form action="/cgi-bin/test.cgi" name="myForm" onsubmit="return(validate());">
+<table id="search"border="25px">
+<tr>
+<td bgcolor=""align="right"><font size="5000"color="white">Name</font></td>
+<td><input type="text" name="Name" id="1" /></td>
+</TR>
+<td align="right"><font size="5000"color="white">Password</font></td>
+<td><input type="password" name="pass" id="5" /></td></TR>
+</TABLE>
+</form>
+<a href="SHOWDATA.html">
+
+<CENTER>
+<input type="submit" value="LOGIN" />
+</a>
+</CENTER>
+</font>
+</body>
+</html>
